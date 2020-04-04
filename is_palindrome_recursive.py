@@ -10,7 +10,7 @@ def is_palindrome(input)
     return (first_l == last_l) and (is_palindrome(sub_string)
                                     
                                    
-if __name__ is __main__:
+if __name__ == __main__:
   print(is_palindrome('madam'))
   print(is_palindrome('tattarrattat'))
   print(is_palindrome('mongoose'))
