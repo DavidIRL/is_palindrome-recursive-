@@ -8,3 +8,10 @@ def is_palindrome(input)
     sub_string = input[1:-1]
     
     return (first_l == last_l) and (is_palindrome(sub_string)
+                                    
+                                   
+if __name__ is __main__:
+  print(is_palindrome('madam'))
+  print(is_palindrome('tattarrattat'))
+  print(is_palindrome('mongoose'))
+                                   
